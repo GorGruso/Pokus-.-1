@@ -1,0 +1,447 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0080)http://nalus.usoud.cz/Search/ResultDetail.aspx?id=52541&pos=56&cnt=83&typ=result -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link href="./ Pl.ÚS-st. 3:96_files/default.css" type="text/css" rel="stylesheet"><link href="./ Pl.ÚS-st. 3:96_files/print.css" type="text/css" rel="stylesheet"><title>
+	Karta a text dokumentu
+</title><meta http-equiv="Cache-control" content="NO-CACHE"><meta http-equiv="Expires" content="0"><meta http-equiv="imagetoolbar" content="no">
+  <script language="javascript" type="text/javascript" src="./ Pl.ÚS-st. 3:96_files/resultsDetail.js"></script>
+  <script language="javascript" type="text/javascript" src="./ Pl.ÚS-st. 3:96_files/common.js"></script>
+</head>
+<body onload="pageOnLoad()" data-new-gr-c-s-check-loaded="14.1050.0" data-gr-ext-installed="">
+  <script language="javascript" type="text/javascript">
+    function pageOnLoad()
+    {
+        if (typeof(document.getElementById("resizeTD")) != 'undefined')
+        {
+            window.onresize = windowResize;
+            document.getElementById("resizeTD").onselectstart = stopEvent;
+            windowResize();
+        }
+    }
+    function stopEvent() 
+    { 
+        return false; 
+    }
+    function windowResize()
+    {
+        try
+        {
+            var i;
+            var tbl = document.getElementById("resultTable");
+            var he = 0;
+            for(i=0; i < tbl.rows.length; i++)
+            {    
+                if(tbl.rows[i].id != 'rowContent')
+                {
+                    he += tbl.rows[i].clientHeight;
+                }
+            }
+            var sz = document.documentElement.clientHeight - he - 40;
+            if(sz <= 1) sz = 1;
+           
+            if (document.getElementById("docContentPanel"))
+            {
+                document.getElementById("docContentPanel").style.height = ""+sz+"px";
+            }
+            document.getElementById("contentHeightHidden").value = sz;
+        }
+        catch(ex)
+        {
+        }
+        
+        try
+        {
+            // nastaveni max vysky pro zaznam resultlist
+            if (document.getElementById("tableDocumentHeader").clientHeight > 200)
+            {
+                var stl = document.getElementById("tblContainer").style;
+                stl.height = "200px";
+                stl.overflowY = 'scroll';
+            }
+        }
+        catch(ex)
+        {
+        }
+    }
+    function resizeMousedown() 
+    {
+        document.onmousemove = layoutResize;
+    }
+    function layoutResize(e)
+    {
+        if (!e) e = window.event;
+        if(e.button == 0)
+        {
+            document.onmousemove = null;
+        }
+        try
+        {
+            var rcSize = e.y - document.getElementById("rowRecordCard").offsetTop - 45;
+            if(rcSize <= 1) rcSize = 1;
+            
+            if (document.getElementById("recordCardPanel") != null)
+                document.getElementById("recordCardPanel").style.height = ""+rcSize+"px";
+            else if (document.getElementById("vytahKratkyPanel") != null)
+                document.getElementById("vytahKratkyPanel").style.height = ""+rcSize+"px";
+            else if (document.getElementById("abstraktPanel") != null)
+                document.getElementById("abstraktPanel").style.height = ""+rcSize+"px";
+            document.getElementById("rcHeightHidden").value = rcSize;
+        }
+        catch(ex)
+        {
+        }
+    }
+  </script>
+    <form name="ResultDetailForm" method="post" action="http://nalus.usoud.cz/Search/ResultDetail.aspx?id=52541&amp;pos=56&amp;cnt=83&amp;typ=result" id="ResultDetailForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMTUzMzU2MDc4D2QWAgIDD2QWHgIDDw8WAh4EVGV4dAUiS2FydGEgYSB0ZXh0IGRva3VtZW50dSAtIE5hbGV6ZW7DqWRkAgUPDxYCHwAFEFBvbG/FvmthIDU2IC8gODNkZAIHDw8WAh4NQWx0ZXJuYXRlVGV4dAUaUMWZZWRjaMOhemVqw61jw60gZG9rdW1lbnRkZAIJDw8WAh8BBRdOw6FzbGVkdWrDrWPDrSBkb2t1bWVudGRkAgsPDxYCHwEFEU7DoXZyYXQgbmEgc2V6bmFtZGQCDQ8PFgIfAQUZTsOhdnJhdCBuYSB2eWhsZWTDoXbDoW7DrWRkAg8PDxYEHg1PbkNsaWVudENsaWNrBQxyZXR1cm4gdHJ1ZTsfAQUbVsO9bWF6IGRva3VtZW50dSB6ZSBzZXpuYW11ZGQCEQ8PFgIfAQUXUMWZaWRhdCBkbyBvZGxvxb5lbsO9Y2hkZAITDxYCHwAFgwg8dGFibGUgd2lkdGg9Jzk4JScgY2VsbHNwYWNpbmc9JzAnIGNlbGxwYWRkaW5nPScwJyBpZD0idGFibGVEb2N1bWVudEhlYWRlciI+PHRyIGNsYXNzPSdyZXN1bHREYXRhSGVhZGVyJyBpZD0iaGVhZGVyUm93Rmlyc3QiPg0KPHRkIGNsYXNzPSdyZXN1bHRDb2wwJz4NCjxkaXYgY2xhc3M9J3Jlc3VsdENvbDBGRic+PC9kaXY+DQo8L3RkPg0KPHRkICBjbGFzcz0ncmVzdWx0RGF0YUhlYWRlcicgPlNwLnpuLjwvdGQ+DQo8dGQgIGNsYXNzPSdyZXN1bHREYXRhSGVhZGVyJyA+UG9wdWzDoXJuw60gbsOhemV2PC90ZD4NCjx0ZCAgY2xhc3M9J3Jlc3VsdERhdGFIZWFkZXInID5Tb3VkY2UgenByYXZvZGFqPC90ZD4NCjx0ZCAgY2xhc3M9J3Jlc3VsdERhdGFIZWFkZXInID5OYXZyaG92YXRlbDwvdGQ+DQo8dGQgIGNsYXNzPSdyZXN1bHREYXRhSGVhZGVyJyA+RGF0dW0gcm96aG9kbnV0w608L3RkPg0KPHRkICBjbGFzcz0ncmVzdWx0RGF0YUhlYWRlcicgPkZvcm1hIHJvemhvZG51dMOtPC90ZD4NCjx0ZCBjbGFzcz0ncmVzdWx0Q29sTic+DQo8ZGl2IGNsYXNzPSdyZXN1bHRDb2xORkYnPjwvZGl2Pg0KPC90ZD4NCg0KICA8L3RyPg0KPHRyIGNsYXNzPSdyZXN1bHREYXRhMCc+DQo8dGQgIGNsYXNzPSdyZXN1bHREYXRhMCcgPjwvdGQ+DQo8dGQgIGNsYXNzPSdyZXN1bHREYXRhMCcgPlBsLsOaUy1zdC4gMy85NiAjMSwgU1QgMy83IFNiTlUgNDA8L3RkPg0KPHRkICBjbGFzcz0ncmVzdWx0RGF0YTAnID5aw6FzYWRhIG1hdGVyacOhbG7DrWhvIG5hesOtcsOhbsOtIG5hIHByw6F2bzwvdGQ+DQo8dGQgIGNsYXNzPSdyZXN1bHREYXRhMCcgPkJyb8W+b3bDoSBJdmE8L3RkPg0KPHRkICBjbGFzcz0ncmVzdWx0RGF0YTAnID5TRU7DgVQgw5pTIC0gSUkuPC90ZD4NCjx0ZCAgY2xhc3M9J3Jlc3VsdERhdGEwJyA+My4gMTIuIDE5OTY8L3RkPg0KPHRkICBjbGFzcz0ncmVzdWx0RGF0YTAnID5TdGFub3Zpc2tvIHBsw6luYTwvdGQ+DQo8dGQgIGNsYXNzPSdyZXN1bHREYXRhMCcgPjwvdGQ+DQoNCiAgPC90cj4NCjwvdGFibGU+ZAIXD2QWEAIBDw8WAh8ABQ5LYXJ0YSB6w6F6bmFtdWRkAgMPDxYCHgdWaXNpYmxlaGRkAgUPDxYCHwEFClRpc2sga2FydHlkZAIHDw8WAh8BBSNTdMOhaG5vdXQga2FydHUgdmUgZm9ybcOhdHUgTVMgV29yZGRkAgkPDxYCHwEFIlpvYnJheml0IGFic3RyYWt0IGEgcHLDoXZuw60gdsSbdHlkZAILDw8WBB8BBQ5ab2JyYXppdCBrYXJ0dR8DaGRkAg0PDxYCHwEFElptxJtuaXQgem9icmF6ZW7DrWRkAg8PDxYCHwEFC1NrcsO9dCBva25vZGQCGQ9kFgICAQ9kFgICAQ8WAh8ABe8cPHRyPg0KPHRkICBzdHlsZT0iZm9udC1zaXplOjEwcHQ7Ij5JZGVudGlmaWvDoXRvciBldnJvcHNrw6kganVkaWthdHVyeTwvdGQ+DQo8dGQgIHN0eWxlPSJmb250LXNpemU6MTBwdDsiPkVDTEk6Q1o6VVM6MTk5NjpQbC5VUy1zdC4zLjk2LjE8L3RkPg0KPC90cj4NCjx0cj4NCjx0ZCAgc3R5bGU9ImZvbnQtc2l6ZToxMHB0OyI+TsOhemV2IHNvdWR1PC90ZD4NCjx0ZCAgc3R5bGU9ImZvbnQtc2l6ZToxMHB0OyI+w5pzdGF2bsOtIHNvdWQgxIxlc2vDqSByZXB1Ymxpa3k8L3RkPg0KPC90cj4NCjx0cj4NCjx0ZCAgc3R5bGU9ImZvbnQtc2l6ZToxMHB0OyI+U3Bpc292w6Egem5hxI1rYTwvdGQ+DQo8dGQgIHN0eWxlPSJmb250LXNpemU6MTBwdDsiPlBsLsOaUy1zdC4gMy85NjwvdGQ+DQo8L3RyPg0KPHRyPg0KPHRkICBzdHlsZT0iZm9udC1zaXplOjEwcHQ7Ij5QYXJhbGVsbsOtIGNpdGFjZSAoU2LDrXJrYSB6w6Frb27Fryk8L3RkPg0KPHRkICBzdHlsZT0iZm9udC1zaXplOjEwcHQ7Ij4mbmJzcDs8L3RkPg0KPC90cj4NCjx0cj4NCjx0ZCAgc3R5bGU9ImZvbnQtc2l6ZToxMHB0OyI+UGFyYWxlbG7DrSBjaXRhY2UgKFNiw61ya2EgbsOhbGV6xa8gYSB1c25lc2Vuw60pPC90ZD4NCjx0ZCAgc3R5bGU9ImZvbnQtc2l6ZToxMHB0OyI+U1QgMy83IFNiTlUgNDA8L3RkPg0KPC90cj4NCjx0cj4NCjx0ZCAgc3R5bGU9ImZvbnQtc2l6ZToxMHB0OyI+UG9wdWzDoXJuw60gbsOhemV2PC90ZD4NCjx0ZCAgc3R5bGU9ImZvbnQtc2l6ZToxMHB0OyI+WsOhc2FkYSBtYXRlcmnDoWxuw61obyBuYXrDrXLDoW7DrSBuYSBwcsOhdm88L3RkPg0KPC90cj4NCjx0cj4NCjx0ZCAgc3R5bGU9ImZvbnQtc2l6ZToxMHB0OyI+RGF0dW0gcm96aG9kbnV0w608L3RkPg0KPHRkICBzdHlsZT0iZm9udC1zaXplOjEwcHQ7Ij4zLiAxMi4gMTk5NjwvdGQ+DQo8L3RyPg0KPHRyPg0KPHRkICBzdHlsZT0iZm9udC1zaXplOjEwcHQ7Ij5EYXR1bSB2eWhsw6HFoWVuw608L3RkPg0KPHRkICBzdHlsZT0iZm9udC1zaXplOjEwcHQ7Ij4mbmJzcDs8L3RkPg0KPC90cj4NCjx0cj4NCjx0ZCAgc3R5bGU9ImZvbnQtc2l6ZToxMHB0OyI+RGF0dW0gcG9kw6Fuw608L3RkPg0KPHRkICBzdHlsZT0iZm9udC1zaXplOjEwcHQ7Ij4yLiAxMS4gMTk5NjwvdGQ+DQo8L3RyPg0KPHRyPg0KPHRkICBzdHlsZT0iZm9udC1zaXplOjEwcHQ7Ij5EYXR1bSB6cMWZw61zdHVwbsSbbsOtPC90ZD4NCjx0ZCAgc3R5bGU9ImZvbnQtc2l6ZToxMHB0OyI+MTcuIDEwLiAyMDA3PC90ZD4NCjwvdHI+DQo8dHI+DQo8dGQgIHN0eWxlPSJmb250LXNpemU6MTBwdDsiPkZvcm1hIHJvemhvZG51dMOtPC90ZD4NCjx0ZCAgc3R5bGU9ImZvbnQtc2l6ZToxMHB0OyI+U3Rhbm92aXNrbyBwbMOpbmE8L3RkPg0KPC90cj4NCjx0cj4NCjx0ZCAgc3R5bGU9ImZvbnQtc2l6ZToxMHB0OyI+VHlwIMWZw616ZW7DrTwvdGQ+DQo8dGQgIHN0eWxlPSJmb250LXNpemU6MTBwdDsiPk8gemF1amV0w60gc3Rhbm92aXNrYSBwbMOpbmEgLSDCpyAyMzwvdGQ+DQo8L3RyPg0KPHRyPg0KPHRkICBzdHlsZT0iZm9udC1zaXplOjEwcHQ7Ij5Ww716bmFtPC90ZD4NCjx0ZCAgc3R5bGU9ImZvbnQtc2l6ZToxMHB0OyI+MTwvdGQ+DQo8L3RyPg0KPHRyPg0KPHRkICBzdHlsZT0iZm9udC1zaXplOjEwcHQ7Ij5OYXZyaG92YXRlbDwvdGQ+DQo8dGQgIHN0eWxlPSJmb250LXNpemU6MTBwdDsiPlNFTsOBVCDDmlMgLSBJSS48L3RkPg0KPC90cj4NCjx0cj4NCjx0ZCAgc3R5bGU9ImZvbnQtc2l6ZToxMHB0OyI+RG90xI1lbsO9IG9yZ8OhbjwvdGQ+DQo8dGQgIHN0eWxlPSJmb250LXNpemU6MTBwdDsiPiZuYnNwOzwvdGQ+DQo8L3RyPg0KPHRyPg0KPHRkICBzdHlsZT0iZm9udC1zaXplOjEwcHQ7Ij5Tb3VkY2UgenByYXZvZGFqPC90ZD4NCjx0ZCAgc3R5bGU9ImZvbnQtc2l6ZToxMHB0OyI+QnJvxb5vdsOhIEl2YTwvdGQ+DQo8L3RyPg0KPHRyPg0KPHRkICBzdHlsZT0iZm9udC1zaXplOjEwcHQ7Ij5OYXBhZGVuw70gYWt0PC90ZD4NCjx0ZCAgc3R5bGU9ImZvbnQtc2l6ZToxMHB0OyI+cm96aG9kbnV0w60gw5pzdGF2bsOtaG8gc291ZHU7IElJSS4gw5pTIDIyNi85NTwvdGQ+DQo8L3RyPg0KPHRyPg0KPHRkICBzdHlsZT0iZm9udC1zaXplOjEwcHQ7Ij5UeXAgdsO9cm9rdTwvdGQ+DQo8dGQgIHN0eWxlPSJmb250LXNpemU6MTBwdDsiPnbDvXJvayBpbnRlcnByZXRhdGl2bsOtPGJyLz52eWhvdsSbbm88L3RkPg0KPC90cj4NCjx0cj4NCjx0ZCAgc3R5bGU9ImZvbnQtc2l6ZToxMHB0OyI+RG90xI1lbsOpIMO6c3Rhdm7DrSB6w6Frb255IGEgbWV6aW7DoXJvZG7DrSBzbWxvdXZ5PC90ZD4NCjx0ZCAgc3R5bGU9ImZvbnQtc2l6ZToxMHB0OyI+PHVsIGNsYXNzPSJ1bEluVEQiPjxsaT4xLzE5OTMgU2IuLCDEjWwuIDk1IG9kc3QuMjwvbGk+PGxpPjIvMTk5MyBTYi4sIMSNbC4gMzYgb2RzdC4xPC9saT48L3VsPjwvdGQ+DQo8L3RyPg0KPHRyPg0KPHRkICBzdHlsZT0iZm9udC1zaXplOjEwcHQ7Ij5Pc3RhdG7DrSBkb3TEjWVuw6kgcMWZZWRwaXN5PC90ZD4NCjx0ZCAgc3R5bGU9ImZvbnQtc2l6ZToxMHB0OyI+PHVsIGNsYXNzPSJ1bEluVEQiPjxsaT4xNzIvMTk5MCBTYi4sIMKnIDE4IG9kc3QuMSwgwqcgMTggb2RzdC4yLCDCpyAxIG9kc3QuMjwvbGk+PGxpPjE4Mi8xOTkzIFNiLiwgwqcgMjM8L2xpPjxsaT43MS8xOTY3IFNiLiwgwqcgNTM8L2xpPjwvdWw+PC90ZD4NCjwvdHI+DQo8dHI+DQo8dGQgIHN0eWxlPSJmb250LXNpemU6MTBwdDsiPk9kbGnFoW7DqSBzdGFub3Zpc2tvPC90ZD4NCjx0ZCAgc3R5bGU9ImZvbnQtc2l6ZToxMHB0OyI+SG9sbMOkbmRlciBQYXZlbDxici8+SnVya2EgVmxhZGltw61y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oWxuw61tIGEgdsSbY27DvW0gbmVqYXNub3N0ZW0gYnlsYSAgenJ1xaFlbmEgcMWZaWrDrW1hY8OtIHprb3XFoWthICB6ZSBkbmUgMTAuICA3LiAxOTk1LCBhIHTDrW0gaSAgcm96aG9kbnV0w60gZMSba2FuYSBvICBuZXDFmWlqZXTDrSBrZSBzdHVkaXUgIHplIGRuZSAzMS4gIDcuIDE5OTUgIGEgIHNvdcSNYXNuxJsgIHN0YW5vdmVuICBub3bDvSAgdGVybcOtbiAgcMWZaWrDrW1hY8OtIHprb3XFoWt5IHDFmWVkIGtvbWlzw60gIGptZW5vdmFub3UgIHJla3RvcmVtLiAgUMWZaSAgZG9kcsW+ZW7DrSAgesOhc2FkeSBtYXRlcmnDoWxuw61obyBuYXrDrXLDoW7DrSBuYSAgcHLDoXZvIGEgdiBuw6F2YXpub3N0aSAgbmEgw7pwcmF2dSBvYnNhxb5lbm91IHYgIHrDoWsuIMSNLiAxNzIvMTk5MCBTYi4sIHZlIHpuxJtuw60gIHBvemTEm2rFocOtY2ggcMWZZWRwaXPFrywgU3RhdHV0dSBWVVQsIFN0YXR1dHUgRmFrdWx0eSAgcG9kbmlrYXRlbHNrw6kgIGEgIFByYXZpZGVsICBwcm8gIHDFmWlqw61tw6Fuw60gIGtlIHN0dWRpdSBuYSBGYWt1bHTEmyAgcG9kbmlrYXRlbHNrw6kgYSAgaSBzICBwxZlpaGzDqWRudXTDrW0gayAgUG9reW7Fr20gZMSba2FuYSBwcm8gcMWZaWrDrW1hY8OtICDFmcOtemVuw60gbmEgIEZha3VsdHUgcG9kbmlrYXRlbHNrb3UgIFZVVCBwcm8gIMWha29sbsOtIHJvayAxOTk1LzE5OTYsICBtw6Egw5pzdGF2bsOtICBzb3VkIHphICAgdG8sIMW+ZSAgemEgc2l0dWFjZSwgIGtkeSByZWt0b3Igw7pzdGF2bsOtICBzdMOtxb5ub3N0w60gIG5hcGFkZW7DvW0gIHJvemhvZG51dMOtbSAgbmEgesOha2xhZMSbIHNrdXRrb3bDvWNoIG5lamFzbm9zdMOtICAgemFsb8W+ZW7DvWNoICBkaWFtZXRyw6FsbsOtICAgb2RsacWhbm9zdMOtICB2w71zbGVka8WvICBtZXppIHprb3XFoWtvdSBqYXp5a292b3UsIGtkeSBvYmEgIHVjaGF6ZcSNaSBkb3PDoWhsaSB2IHBvZHN0YXTEmyBuZWpuacW+xaHDrSBwb8SNZXQgYm9kxa8sIGEgdsWhZW9iZWNub3UgemtvdcWha291LCB2IG7DrcW+IHNlIGpha28gamVkaW7DrSBkb3Nhxb5lbsOtbSBtYXhpbcOhbG7DrWhvICBwb8SNdHUgIGJvZMWvICBwcmV6ZW50b3ZhbGkgIHYgIHrDoXNhZMSbICBqYWtvIGdlbmnDoWxuw60sIHDFmWnEjWVtxb4gIHN0xJvFvm92YXRlbGthICBkb3NhaG92YWxhICAgZG9zdWQgIHByxa9txJtybsO9Y2ggIHN0dWRpam7DrWNoIHbDvXNsZWRrxa8gYSBzdMSbxb5vdmF0ZWwgZG9rb25jZSBwb2RwcsWvbcSbcm7DvWNoLCBhIGRhbMWhw61jaCBuZWphc25vc3TDrSBwbHlub3Vjw61jaCAgemUgIHNrdXRlxI1ub3N0aSwgIMW+ZSAgb2JhICBwxZlpasOtbWFjw60gemtvdcWha3Ugc2tsw6FkYWxpIHYgbsOhaHJhZG7DrW0gdGVybcOtbnUsICBwxZlpIG7DrcW+IHNlZMSbbGkgIHZlZGxlIHNlYmUgYSAga2R5IHDFmWVkc2Vkb3UgcMWZaWrDrW1hY8OtICBrb21pc2UgIGJ5bCAgemFtxJtzdG5hbmVjICBzb3Vrcm9tw6kgIGFnZW50dXJ5LCAga2RlIG9iYSBzdMSbxb5vdmF0ZWzDqSAgIHN0dWRvdmFsaSwgICB1xI1pbmlsICAgb3BhdMWZZW7DrSwgICBrdGVyw71tICBtxJtseSAgYsO9dCBvZHN0cmFuxJtueSAgdHl0byAgbmVqYXNub3N0aSAgYSAgc291xI1hc27EmyAgdGFrICBwb3N0YXZlbmEgbmFqaXN0byBvdMOhemthIHpqacWhdMSbbsOtIHDFmWVkcG9rbGFkxa8ga2UgIHN0dWRpdSwgcmVzcC4gesOha29uZW0gcG9zdHVsb3ZhbsOpIHpwxa9zb2JpbG9zdGkga2Ugc3R1ZGl1IChzcm92LiDCpyAxOCBvZHN0LiAxIHrDoWsuIMSNLiAxNzIvMTk5MCBTYi4pLCBuZWx6ZSBuYXBhZGVuw6ltdSByb3pob2RudXTDrSByZWt0b3JhIG5pYyB2eXRrbm91dCwgYSB0byB0w61tIHNww63FoWUsIMW+ZSBzZSAgcG9oeWJvdmFsIHYgbWV6w61jaCAgdnlzb2tvxaFrb2xza8OpaG8gesOha29uYSwga3RlcsO9ICBtdSBobmVkIHYgcHJlYW1idWxpICB1a2zDoWTDoSAgIGRva29uY2UgIHp2w73FoWVub3UgIG9kcG92xJtkbm9zdCAgIHphICByb3p2b2ogdnpkxJtsYW5vc3RpIGEgIHp2ecWhb3bDoW7DrSB2xJtkZWNrw6kgw7pyb3ZuxJsgIHNwb2xlxI1ub3N0aS4gWmUgc3Rlam7DvWNoIGTFr3ZvZMWvICAgbmVsemUgIG5hICAgc3RyYW7EmyAgcmVrdG9yYSAgIGtvbnN0YXRvdmF0ICBhbmkgIGxpYm92xa9saSB6YWtsw6FkYWrDrWPDrSBkb2tvbmNlIHByb3Rpw7pzdGF2bm9zdC4gSmFrICB6IHDFmWVkZXNsYW7DqWhvIHBseW5lLCBuYSB1dmVkZW7DqW0gbmljIG5lbcWvxb5lIHptxJtuaXQgbmVleGlzdGVuY2UgcHJvY2VzbsOtY2ggcHJhdmlkZWwsIG5lYm/FpSB0YWtvdsO9IHDFmcOtc3R1cCAgYnkgc3bEm2TEjWlsIG8gIHVwxZllZG5vc3TFiG92w6Fuw60gZm9ybcOhbG7DrWNoIHDFmcOtc3R1cMWvIHDFmWVkIG9ic2Fob3bDvW1pLCBhICBuYXbDrWMgc2kgbHplIHDFmWVkc3Rhdml0IGkgIHNpdHVhY2ksIGtkeSBwcsOhdsSbIHByb2Nlc27DrSAgcHJhdmlkbGEgdnl0dm/FmcOtICBwcm9zdG9yIHBybyAgbGlib3bFr2xpIGEgIHDFmWVzdG8gYnVkb3UgdiBrb25rcsOpdG7DrW0gcMWZw61wYWTEmyAgaW50ZXJwcmV0b3bDoW5hIHMgdnlsb3XEjWVuw61tICB0w6l0byBsaWJvdsWvbGUuIEppbsOhIHbEm2MgamUsIMW+ZSBzdGFub3ZlbsOtIHBvc3R1cHUgdmUgc3RhdHV0dSB2ZSBzbXlzbHUgcm96aG9kbnV0w60gdMWZZXTDrWhvICBzZW7DoXR1ICBqZSAgemFqaXN0w6kgIHbDvXpuYW1uw71tICBwxZnDrXNwxJt2a2VtICBrICB2eXR2b8WZZW7DrSBwxZllZHBva2xhZMWvIHBybyBrdmFsaXR1IHDFmWlqw61tYWPDrWhvICDFmcOtemVuw60gcHLDoXbEmyB6IGhsZWRpc2thIGplaG8gb2JzYWh1LCBuZWx6ZSAgamUgdsWhYWsgcG92ecWhb3ZhdCAgbmFkIHBvZHN0YXR1LCBrdGVyb3UgIHrFr3N0w6F2YWrDrSBzY2hvcG5vc3RpIGEgcMWZZWRwb2tsYWR5IGtlIHN0dWRpdSwgIMSNZW11xb4gb2Rwb3bDrWTDoSBpIHRvLCDFvmUgdHl0byBwb3N0dXB5IG5hbMOpemFqw60gcHJvc3RvciBhxb4gdiBwb2R6w6Frb25uw6kgcHLDoXZuw60gc2bDqcWZZS48YnIvPjxici8+ViBCcm7EmyBkbmUgMy4gMTIuIDE5OTYNCjxici8+DQo8YnIvPg0KPGhyLz4NCjxici8+DQpPZGxpxaFuw6kgc3Rhbm92aXNrbyBzb3VkY8WvIEpVRHIuIFBhdmxhIEhvbGzDpG5kZXJhLCBKVURyLiBWbGFkaW3DrXJhIEp1cmt5IGEgSlVEci4gIFZsYXN0aW1pbGEgxaBldsSNw61rYSB2ZSB2xJtjaSBQbC4gIMOaUy1zdC4gMy85Njxici8+PGJyLz4xLiBQxZlpIHBvc3V6b3bDoW7DrSDDunN0YXZub3N0aSByb3pob2RudXTDrSByZWt0b3JhIG8gcMWZaWpldMOtLCByZXNwLiBuZXDFmWlqZXTDrSBrZSBzdHVkaXUgbmEgdnlzb2vDqSDFoWtvbGUgbnV0bm8gdiBwcnZuw60gxZlhZMSbIHpvZHBvdsSbZMSbdCBvdMOhemt1LCB6ZGFsaSBzZSBqZWRuw6EgbyByb3pob2RvdsOhbsOtIG8gcHLDoXZ1IGZ5emlja8OpIG9zb2J5IHYgb2JsYXN0aSB2ZcWZZWpuw6kgc3Byw6F2eS4gUG96aXRpdm7DrSBvZHBvdsSbxI8gbmEgdHV0byBvdMOhemt1IHZ5cGzDvXbDoSBqZWRuYWsgeiBwbGF0bsOpIHByw6F2bsOtIMO6cHJhdnksIGplZG5hayB6IGp1ZGlrYXR1cnkgYSBrb25lxI1uxJsgaSB6IHRlb3JldGlja29wcsOhdm7DrWhvIHJvemJvcnUuPGJyLz48YnIvPlogaGxlZGlza2EgcGxhdG7DqWhvIHByw6F2YSBqZSB0byB6ZWptw6luYSB1c3Rhbm92ZW7DrSBwxZnDrWxvaHkgQSBvLiBzLiDFmS4sIGt0ZXLDqSBieSBuZW3Em2xvIHJvenVtbsO9IHNteXNsIHYgcMWZw61wYWTEmyB6w6F2xJtydSwgcG9kbGUgbsSbaG/FviBzZSB2IHBvc3V6b3ZhbsOpbSBwxZnDrXBhZMSbIG5lamVkbsOhIG8gcm96aG9kb3bDoW7DrSBvIHByw6F2dSBmeXppY2vDqSBvc29ieSB2IG9ibGFzdGkgdmXFmWVqbsOpIHNwcsOhdnkuIETDoWxlIMKnIDE4IG9kc3QuIDIgesOha29uYSDEjS4gMTcyLzE5OTAgU2IuLCBvIHZ5c29rw71jaCDFoWtvbMOhY2gsIHZlIHpuxJtuw60gcG96ZMSbasWhw61jaCBwxZllZHBpc8WvLCB6YWtvdHZ1amUgcHJvY2VzIHJvemhvZG92w6Fuw60gbyBwxZlpamV0w60ga2Ugc3R1ZGl1IG5hIHZ5c29rw6kgxaFrb2xlLiBWIHNvdXZpc2xvc3RpIHMgcm96aG9kbnV0w61tIG8gcMWZaWpldMOtIGtlIHN0dWRpdSBvYnNhaHVqZSBjaXRvdmFuw6kgdXN0YW5vdmVuw60gaSB2w73EjWV0IG7DoWxlxb5pdG9zdMOtLCBwb2ptb3bEmyBjaGFyYWt0ZXJpenVqw61jw61jaCByb3pob2RudXTDrSB2IG9ibGFzdGkgdmXFmWVqbsOpIHNwcsOhdnkgKHZ5xb5hZHVqZSBzZSBqZWhvIG9kxa92b2RuxJtuw60sIGplIHpha290dmVuIHDFmWV6a3VtbsO9IG1lY2hhbml6bXVzKS48YnIvPjxici8+WiBobGVkaXNrYSBqdWRpa2F0dXJ5IGx6ZSB6bcOtbml0IHVzbmVzZW7DrSDDmnN0YXZuw61obyBzb3VkdSDEjGVza8OpIGEgU2xvdmVuc2vDqSBGZWRlcmF0aXZuw60gUmVwdWJsaWt5IHplIGRuZSAxOS4gYsWZZXpuYSAxOTkyIDxhIGhyZWY9J2h0dHBzOi8vTmFsdXMudXNvdWQuY3ovU2VhcmNoL0dldFJlZ1NpZ25EZWNpc2lvbnMuYXNweD9zej0yLTE4LTkyJyB0YXJnZXQ9J19ibGFuayc+c3AuIHpuLiBJSS4gw5pTIDE4LzkyPC9hPiwgdiBuxJttxb4gYnlsYSDFmWXFoWVuYSBvdMOhemthLCBqZXN0bGkgUHLDoXZuaWNrw6EgZmFrdWx0YSBVbml2ZXJ6aXR5IEthcmxvdnkgdiBvYmxhc3RpIHJvemhvZG92w6Fuw60gbyByaWdvcsOzem7DrW0gxZnDrXplbsOtIHZ5c3R1cG92YWxhIGpha28gb3Jnw6FuIHZlxZllam7DqSBtb2NpLiBLIHBveml0aXZuw60gb2Rwb3bEm2RpIG5hIHR1dG8gb3TDoXprdSDDmnN0YXZuw60gc291ZCDEjFNGUiBkb3NwxJtsIHDFmWlqZXTDrW0gdsO9Y2hvZGlza2EsIHBvZGxlIG7Em2hvxb4gamluw70gcHLDoXZuw60gc3ViamVrdCBuZcW+IHN0w6F0bsOtIG9yZ8OhbiByb3pob2R1amUgamFrbyBvcmfDoW4gdmXFmWVqbsOpIG1vY2kgbyB6w6FrbGFkbsOtY2ggcHLDoXZlY2ggYSBzdm9ib2TDoWNoIHRlaGR5LCBqZS1saSB0b3RvIHJvemhvZG92w6Fuw60gc291xI3DoXN0w60gcHJhdm9tb2NpIHpha290dmVuw6kgesOha29uZW0gYSDDusSNYXN0ZW5zdHbDrSB2IG7Em20gbnV0bm91IHBvZG3DrW5rb3UgcHJvIHJlYWxpemFjaSB0YWtvdsOpaG8gcHLDoXZhIG5lYm8gc3ZvYm9keSBhIG5lbHplLWxpIHByw6F2byBuZWJvIHN2b2JvZHUgdXBsYXRuaXQgamluYWsuPGJyLz48YnIvPlrDoWtvbiBvIHZ5c29rw71jaCDFoWtvbMOhY2ggcMWZZWRwb2tsw6Fkw6EgdsO9bHXEjW7EmyBleGlzdGVuY2kgc3TDoXRuw61jaCB2eXNva8O9Y2ggxaFrb2wsIG5hIMSNw6FzdCBqaW1pIHVza3V0ZcSNxYhvdmFuw71jaCByb3pob2RudXTDrSBwxZnDrW1vIHZ6dGFodWplIHNwcsOhdm7DrSDFmcOhZCAowqcgMzQpLCBwcm8gZGFsxaHDrSDEjcOhc3QgdXByYXZ1amUgc3BlY2nDoWxuw60gcG9zdHVwIChuYXDFmS4gwqcgMTggb2RzdC4gMikuIFByw6F2dSBzdHVkb3ZhdCBuYSB2eXNva8OpIMWha29sZSB6w6Frb24gcMWZaXN1enVqZSB2ZcWZZWpub3Byw6F2bsOtIHBvdmFodS4gVG90byBrb25zdGF0b3bDoW7DrSBwbHluZSB6IHVzdGFub3ZlbsOtIMKnIDM0LCBwb2RsZSBuxJtob8W+IHNlIG5hIHJvemhvZG92w6Fuw60gbyB2eWxvdcSNZW7DrSB6ZSBzdHVkaWEgdnp0YWh1amUgc3Byw6F2bsOtIMWZw6FkLCBhIHR1ZMOtxb4gbsOhc2xlZG7EmyBpIG1vxb5ub3N0IHNvdWRuw61obyBwxZllemtvdW3DoW7DrS48YnIvPjxici8+UG9kbGUgxI1sLiAzNiBvZHN0LiAxIExpc3RpbnkgesOha2xhZG7DrWNoIHByw6F2IGEgc3ZvYm9kIHNlIGthxb5kw70gbcWvxb5lIGRvbcOhaGF0IHN0YW5vdmVuw71tIHBvc3R1cGVtIHN2w6lobyBwcsOhdmEgdSBuZXrDoXZpc2zDqWhvIGEgIG5lc3RyYW5uw6lobyBzb3VkdSAgYSAgdmUgIHN0YW5vdmVuw71jaCAgcMWZw61wYWRlY2ggIHUgamluw6lobyBvcmfDoW51LiBVdmVkZW7DqSB1c3Rhbm92ZW7DrSBMaXN0aW55IHZ5xb5hZHVqZSB0dWTDrcW+IHBybyB2xaFlY2hueSBwxZnDrXBhZHkgcm96aG9kb3bDoW7DrSBvIHByw6F2ZWNoIHN0YW5vdmVuw70gcG9zdHVwLCDEjWlsaSBvYmVjbm91IHByb2Nlc27DrSDDunByYXZ1LCBnYXJhbnR1asOtY8OtIHJvdm5vc3QgYSB2eWxvdcSNZW7DrSBsaWJvdsWvbGUuPGJyLz48YnIvPk5hIHJvemhvZG92w6Fuw60gbyBwxZlpamV0w60ga2Ugc3R1ZGl1IG5hIHZ5c29rw6kgxaFrb2xlIHNlIHBvZGxlIMKnIDM0IHrDoWtvbmEgbyB2eXNva8O9Y2ggxaFrb2zDoWNoIG5ldnp0YWh1asOtIG9iZWNuw6kgcMWZZWRwaXN5IG8gc3Byw6F2bsOtbSDFmcOtemVuw60uIHRqLiDCpyA1MyBhxb4gNmwgesOha29uYSDEjS4gNzEvMTk2NyBTYi4sIG8gc3Byw6F2bsOtbSDFmcOtemVuw60uIFV2ZWRlbm91IHByb2JsZW1hdGlrdSBuZXVwcmF2dWplIHDFmWl0b20gYW5pIHrDoWtvbiBvIHZ5c29rw71jaCDFoWtvbMOhY2guIFBvZGxlIMKnIDEgb2RzdC4gMiB6w6Frb25hIMSNLiAxNzIvMTk5MCBTYi4sIHZlIHpuxJtuw60gcG96ZMSbasWhw61jaCBwxZllZHBpc8WvLCBqc291IHZ5c29rw6kgxaFrb2x5IHNhbW9zcHLDoXZuw6ksIHYgZMWvc2xlZGt1IMSNZWhvxb4gbyBvcmdhbml6YWNpIGEgxI1pbm5vc3RpIHZ5c29rw6kgxaFrb2x5IHJvemhvZHVqw60gdiBzb3VsYWR1IHNlIHrDoWtvbmVtIGEgdiBqZWhvIG1lesOtY2ggb3Jnw6FueSBha2FkZW1pY2vDqSBzYW1vc3Byw6F2eS4gSmUgdGVkeSBqZWppY2ggw7prb2xlbSB2ZSBzdGF0dXR1IHZ5c29rw6kgxaFrb2x5IChmYWt1bHR5KSBzdGFub3ZpdCBwb3N0dXAgcm96aG9kb3bDoW7DrSBvIHByw6F2ZWNoLCBqZXN0bGnFvmUgdGVudG8gbmVuw60gc3Rhbm92ZW4gcHLDoXZuw61taSBwxZllZHBpc3kuPGJyLz48YnIvPlYgc291dmlzbG9zdGkgcyByb3pob2RvdsOhbsOtbSByZWt0b3JhIG8gb2R2b2zDoW7DrSBkbyByb3pob2RudXTDrSBkxJtrYW5hIG8gbmVwxZlpamV0w60ga2Ugc3R1ZGl1IG5hIHZ5c29rw6kgxaFrb2xlIHRvIHpuYW1lbsOhIG5lemJ5dG5vc3Qgc3Rhbm92aXQgcm96c2FoIGFwbGlrYWNlIHJldml6bsOtaG8gcHJpbmNpcHUsIHJlc3AuIGplaG8gb21lemVuw60gbmEgZMWvdm9keSBvZHZvbMOhbsOtLCBqYWtvxb4gaSBtw61ydSBhcGxpa2FjZSBrYXNhxI1uw61obyBhIGFwZWxhxI1uw61obyBwcmluY2lwdS4gViBvcGHEjW7DqW0gcMWZw61wYWTEmyBkb2Now6F6w60gayByb3pob2RvdsOhbsOtIHJla3RvcmEgbyBvZHZvbMOhbsOtIHByb3RpIHJvemhvZG51dMOtIGTEm2thbmEgdmUgdsSbY2kgcMWZaWrDrW3DoW7DrSBrZSBzdHVkaXUgbmEgdnlzb2vDqSDFoWtvbGUgYmV6IHDFmWVkZW0gInN0YW5vdmVuw6lobyBwb3N0dXB1IiBhIHTDrW0gayBkb3TEjWVuw60gbmEgesOha2xhZG7DrWNoIHByw6F2ZWNoLCBwbHlub3Vjw61jaCB6IMSNaS4gMzYgb2RzdC4gMSBMaXN0aW55IHrDoWtsYWRuw61jaCBwcsOhdiBhIHN2b2JvZC48YnIvPjIuIFbEm3TFoWlub3bDqSB2b3R1bSB2eWNow6F6w60g4oCeemUgesOhc2FkeSBtYXRlcmnDoWxuw61obyBuYXrDrXLDoW7DrSBuYSBwcsOhdm8iIGEgcMWZaSBwxZllemtvdW3DoW7DrSBwb3N1em92YW7DqWhvIHDFmcOtcGFkdSBuZXNobGVkw6F2w6EgbGlib3bFr2xpIHDFmWkgcm96aG9kb3bDoW7DrSByZWt0b3JhLCBwcm90b8W+ZSB0ZW50byDigJ51xI1pbmlsIG9wYXTFmWVuw60sIGt0ZXLDvW0gbcSbbHkgYsO9dCBvZHN0cmFuxJtueSBuZWphc25vc3RpIiBwxZlpasOtbWFjw61obyDFmcOtemVuw60gLGEgc291xI1hc27EmyB0YWsgcG9zdGF2ZW5hIG5hamlzdG8gb3TDoXprYSB6amnFoXTEm27DrSBwxZllZHBva2xhZMWvIGtlIHN0dWRpdeKAnC4gWiB0b2hvIHNlIGRvdm96dWplIHrDoXbEm3IsIMW+ZSBuYSBrb25zdGF0b3bDoW7DrSBhYnNlbmNlIGxpYm92xa9sZSBwxZlpIHJvemhvZG92w6Fuw60gcmVrdG9yYSDigJ4ubmljIG5lbcWvxb5lIHptxJtuaXQgbmVleGlzdGVuY2UgcHJvY2VzbsOtY2ggcHJhdmlkZWwsIG5lYm/FpSB0YWtvdsO9IHDFmcOtc3R1cCBieSBzdsSbZMSNaWwgbyB1cMWZZWRub3N0xYhvdsOhbsOtIGZvcm3DoWxuw61jaCBwxZnDrXN0dXDFryBwxZllZCBvYnNhaG92w71taSwgYSBuYXbDrWMgc2kgbHplIHDFmWVkc3Rhdml0IGkgc2l0dWFjaSwga2R5IHByw6F2xJsgcHJvY2VzbsOtIHByYXZpZGxhIHZ5dHZvxZnDrSBwcm9zdG9yIHBybyBsaWJvdsWvbGkgYSBwxZllc3RvIGJ1ZG91IHYga29ua3LDqXRuw61tIHDFmcOtcGFkxJsgaW50ZXJwcmV0b3bDoW5hIHMgdnlsb3XEjWVuw61tIHTDqXRvIGxpYm92xa9sZSIuIFByYXZpZGxhIHJvemhvZG92w6Fuw60gcmVrdG9yYSB2IG9kdm9sYWPDrWNoIMWZw616ZW7DrWNoIHBhayDigJ5uZWx6ZSBwb3Z5xaFvdmF0IG5hZCBwb2RzdGF0dSwga3Rlcm91IHrFr3N0w6F2YWrDrSBzY2hvcG5vc3RpIGEgcMWZZWRwb2tsYWR5IGtlIHN0dWRpdSIuPGJyLz48YnIvPlRhdG8gw7p2YWhhIGEgdG90byBzdGFub3Zpc2tvIG90ZXbDrXLDoSBwcm9zdG9yIGsgdG9tdSwgYWJ5IHJla3RvciBwxZlpIHJvemhvZG92w6Fuw60gbyBvZHZvbMOhbsOtIHByb3RpIHJvemhvZG51dMOtIGTEm2thbmEgbyBuZXDFmWlqZXTDrSBrZSBzdHVkaXUgbmEgdnlzb2tvdSDFoWtvbHUgcHJvdsSbxZlvdmFsIOKAnHNjaG9wbm9zdGkgYSBwxZllZHBva2xhZHkgdWNoYXplxI1lIGtlIHN0dWRpdSIsIHBha2xpxb5lIG3DoSBwb2NoeWJub3N0aSBvIG9ic2FodSBwxZlpasOtbWFjw60gemtvdcWha3ksIGTDoWxlIGsgdG9tdSwgYWJ5IHogdGFrb3bDqWhvIHpqacWhdMSbbsOtIHZ5dm9kaWwgesOhdsSbcnkgYmV6IGpha8Opa29saSBwxZllZGVtIGRhbsOpIMO6cHJhdnksIHR1ZMOtxb4gaSByb3pob2RsIG8gcMWZaWpldMOtIGtlIHN0dWRpdS4gUG8gcMWZaWpldMOtIHV2ZWRlbsOpaG8gc3Rhbm92aXNrYSBkbmVzIG5lYnLDoW7DrSByZWt0b3JvdmkgbmljIHYgdG9tLCBhYnkgaW50ZXJwcmV0b3ZhbCB6w6Frb24gbyB2eXNva8O9Y2ggxaFrb2zDoWNoIHTDrW0genDFr3NvYmVtLCDFvmUgbmVidWRlIHJlc3Bla3RvdmF0IHJvemhvZG51dMOtIGFrYWRlbWlja8OpaG8gc2Vuw6F0dSBmYWt1bHR5IG8ga3JpdMOpcmnDrWNoIHBvc3V6b3bDoW7DrSBwxZllZHBva2xhZMWvIGtlIHN0dWRpdSBhIG8gcG/EjXR1IHDFmWlqw61tYW7DvWNoIHN0dWRlbnTFryBhIHBvIHBvc291emVuw60gdmxhc3Ruw61tIHJvemhvZG5lIG8gcMWZaWpldMOtIG5lb21lemVuw6lobyBwb8SNdHUgdWNoYXplxI3Fry48YnIvPjxici8+WsOha29uIG8gdnlzb2vDvWNoIMWha29sw6FjaCwgamVuxb4gcGF0xZlpbCB2IHByYXbDqW0gc2xvdmEgc215c2x1IGsgesOha29uxa9tIHNwamF0w71tIHMgbGlzdG9wYWRlbSAxOTg5LCBvZHN0cmFuaWwgbmVkZW1va3JhdGlja8OpIGNlbnRyYWxpc3RpY2vDqSDFmcOtemVuw60gdnlzb2vDvWNoIMWha29sIHN0w6F0ZW0sIHphdmVkbCBqZWppY2ggcm96c8OhaGxvdSBhdXRvbm9taWkgYSB6YWtvdHZpbCBha2FkZW1pY2vDoSBwcsOhdmEgYSBzdm9ib2R5LiBLIMO6xI1lbMWvbSB6w6Frb25hIHBhdMWZaWxhIGkgc25haGEgemFicsOhbml0IHpuZXXFvsOtdsOhbsOtIHDFmWlqw61tYWPDrWhvIMWZw616ZW7DrSwgamFrIGsgdG9tdSBkb2Now6F6ZWxvIHDFmWVkIGxpc3RvcGFkZW0sIGtkeSwga3JvbcSbIGppbsOpaG8sIG5hIMO6cm92bmkgcmVrdG9yYSBhIG1pbmlzdGVyc3R2YSBieWxpIHDFmWlqw61tw6FuaSB1Y2hhemXEjWkgYmV6IHNwbG7Em27DrSBqYWvDvWNoa29saSBwb2Rtw61uZWsgYSBiZXogamFrw6lrb2xpIHbDoXphbm9zdGkgcHJhdmlkbHkgYSBwxZllZGVtIHN0YW5vdmVuw71taSBwb8SNdHkuIFrDoWtvbiwgYSB0byBiZXogZG90xI1lbsOtIGF1dG9ub21pZSB2eXNva8O9Y2ggxaFrb2wsIHYgdMOpdG8gc291dmlzbG9zdGkgbmXFmWVrbCBuaWMgdsOtYyBhIG5pYyBtw63FiCBuZcW+IHRvLCDFvmUgcMWZaWrDrW3DoW7DrSBrZSBzdHVkaXUgamUgdm5pdMWZbsOtIHbEm2PDrSB2eXNva8OpIMWga29seSwgxb5lIHYgbsSbbSBocmFqZSB2w716bmFtbm91IHJvbGkgb2JzYWhvdsO9IGtvbnRleHQsIHByb8SNZcW+IHBybyBuxJtqIHZ5bG91xI1pbCB2IMKnIDM0IHBvdcW+aXTDrSBzcHLDoXZuw61obyDFmcOhZHUsIGEgdMOtbSBzdsSbxZlpbCBqZWhvIMO6cHJhdnUga29tcGV0ZW5jaSBzYW1vc3Byw6F2bsOpLiBDw61sZW0gYnlsbyB0ZWR5IG5hIHN0cmFuxJsgamVkbsOpIG5lbmFydcWhaXQgc2Ftb3NwcsOhdm5vdSBwb3ZhaHUgdnlzb2vDvWNoIMWha29sLCBuYSBzdHJhbsSbIGRydWjDqSB2eWxvdcSNaXQgbGlib3bFr2xpIHYgcm96aG9kb3bDoW7DrS48YnIvPjxici8+UG9qZW0gbGlib3bFr2xlIG3Fr8W+ZSBtw610IGR2b2rDrSB2w716bmFtOiBtxa/FvmUgasOtdCBvIGxpYm92xa9saSB2ZSBzbXlzbHUgbWF0ZXJpw6FsbsOtbSwgdGouIHogaGxlZGlza2Egc3ByYXZlZGxub3N0aSBhIHJhY2lvbmFsaXR5ICjDusSNZWx1KSByb3pob2RudXTDrSB2ZSB2xJtjaSAoa2Uga3RlcsOpIG3Fr8W+ZSBkb2rDrXQgaSB6bmV1xb5pdMOtbSBleGlzdHVqw61jw61jaCBwcm9jZXNuw61jaCBwcmF2aWRlbCkgYSBkw6FsZSBvIGxpYm92xa9saSB2IHBvc3R1cHUgYSBvYnNhaHUgcm96aG9kbnV0w60gdmUgc215c2x1IG5lcmVzcGVrdG92w6Fuw60gbmVibyBhYnNlbmNlIHDFmWVkZW0gZGFuw71jaCBwcmF2aWRlbCBhIGFsdGVybmF0aXYgcm96aG9kb3bDoW7DrS48YnIvPjxici8+ViBkZW1va3JhdGlja8OpbSBwcsOhdm7DrW0gc3TDoXTEmyBzZSBzcHJhdmVkbG5vc3TDrSBhIHRlbGVvbG9naWNrw6kgcG9zdXpvdsOhbsOtIHbEm2PDrSDigJ4ucG9oeWJ1amUiIHYgcsOhbWNpIHDFmWVkZW0gc3Rhbm92ZW7DvWNoIHByb2Nlc27DrWNoIHByYXZpZGVsIChqZWppY2jFviDDusSNZWxlbSBqZSBwcsOhdsSbIHRha292w6l0byBwb3NvdXplbsOtIHVtb8W+bml0KS4gViBwxZnDrXBhZMSbLCBrZHkgYWtjZXB0YWNlIHByb2Nlc27DrWNoIHByYXZpZGVsIHZlZGUga2Ugempldm7DqSBuZXNwcmF2ZWRsbm9zdGksIHByw6F2bsOtIMWZw6FkIHVtb8W+xYh1amUgYnXEjyBzcGVjacOhbG7DrSBwb3N0dXAgdmVkb3Vjw60ga2Ugem3Em27EmyBwcm9jZXNuw60gbm9ybXkgKGt1cMWZLiBwb2RsZSDEjWkuIDk1IG9kc3QuIDIgw5pzdGF2eSksIG5lYm8gemEgb21lenVqw61jw61jaCBwb2Rtw61uZWsgZXh0csOpbW7DrWhvIG9ocm/FvmVuw60gKHJlc3AuIGRvdMSNZW7DrSkgesOha2xhZG7DrWNoIMO6c3Rhdm7DrWNoIHByaW5jaXDFryB1bW/FvsWIdWplIGkgcm96aG9kbm91dMOtIHByYWV0ZXIgbmVibyBjb250cmEgbGVnZW0uIFYgcG9zdXpvdmFuw6kgdsSbY2kgdsWhYWsgY2h5YsOtIHrDoWtsYWQgdGFrb3bDqXRvIMO6dmFoeSwgY2h5YsOtIGpha8Oha29saSDDunN0YXZuw60gw7pwcmF2b3UgdnnFvmFkb3ZhbsOhIHByb2Nlc27DrSBwcmF2aWRsYS4gS29uZcSNbsSbIGFyZ3VtZW50IG1vxb5uw6lobyB6bmV1xb5pdMOtIHByb2Nlc27DrWNoIHByYXZpZGVsLCBvZMWvdm9kxYh1asOtY8OtIG9kbcOtdG51dMOtIG9iZWNuw6lobyBwb8W+YWRhdmt1IGplamljaCBleGlzdGVuY2UsIHZlIHN2w6ltIGTFr3NsZWRrdSB6bmFtZW7DoSB6cG9jaHlibsSbbsOtIGplZG5vaG8gemUgesOha2xhZG7DrWNoIGF4aW9txa8gZGVtb2tyYXRpY2vDqSBhbmdsb3Nhc2vDqSBpIGV2cm9wc2tvLWtvbnRpbmVudMOhbG7DrSBwcsOhdm7DrSBrdWx0dXJ5LCBwb2RsZSBuxJtob8W+IHByaW9yaXRhIHByb2Nlc27DrWNoIGdhcmFuY8OtIHDFmWVkc3RhdnVqZSBuw6FzbGVkbsSbIGkgZ2FyYW5jaSBobW90bsO9Y2ggcHLDoXYuDQo8YnIvPg0KPGJyLz4NCjwvc3Bhbj5kGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYQBQ5Hb3RvUHJldmlvdXNJZAUKR290b05leHRJZAUIR290b0xpc3QFCEdvdG9Ib21lBRZEZWxldGVEb2N1bWVudEZyb21MaXN0BQxTYXZlRG9jdW1lbnQFD1ByaW50UmVjb3JkQ2FyZAUSRG93bmxvYWRSZWNvcmRDYXJkBQxTaG93QWJzdHJha3QFDENoYW5nZVBhbmVsMQUOU2hvd0hpZGVQYW5lbDEFD1ByaW50RG9jQ29udGVudAULU2hvd1dvcmREb2MFD0NsaXBib2FyZENpdGFjZQUOQ2xpcGJvYXJkT2RrYXoFDlNob3dIaWRlUGFuZWwyW7Lk/fYQZ4hHoKU5VulTyxyUFmk=">
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="2B1BCA43">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWFgKe+/mfDgLB6PuFCQKnnYW+AQLh3493ApzGqvoHAvLQzqQKApqGhc4LArGB/MoGAo2NstwMApnLpNQLAp/HyuwNAo2n73YClOSDrQYCmbPItwkCkPHHuAIC8KOwwA0Cne/PlA8ClOSHrQYC2cDCzAQC9+aSwQsC/r+s/w4CtYqUmQgq2BuaAJhrjVOPm4Lir7mubk1gfw==">
+</div>
+        <input name="positionHidden" type="hidden" id="positionHidden" value="56">
+        <div class="master" id="resultDIV">
+            <table id="resultTable" border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tbody><tr>
+                    <td>
+                        <table width="100%" cellpadding="0" cellspacing="0" class="resultDetailHeader">
+                            <tbody><tr><td class="masterHeaderLine3"></td></tr>
+                            <tr><td class="masterHeaderLine1"></td></tr>
+                            <tr><td class="masterHeaderLine2"></td></tr>
+                            <tr><td class="masterHeaderLine1"></td></tr>
+                            <tr><td class="masterHeaderLine3"></td></tr>
+                            <tr>
+                                <td class="resultDetailHeaderPanel">
+                                    
+                                        <table border="0" cellpadding="3" cellspacing="0" width="99%">
+                                            <tbody><tr>
+                                                <td align="left">
+                                                    <span id="lblHeader" class="resultDetailLabelHeader">Karta a text dokumentu - Nalezené</span></td>
+                                                <td align="right">
+                                                    <table border="0" cellpadding="3" cellspacing="0">
+                                                        <tbody><tr>
+                                                            <td>
+                                                                <span id="lbPosition" class="labelPosition">Položka 56 / 83</span>
+                                                            </td>
+                                                            <td>
+                                                                &nbsp;</td>
+                                                            <td>
+                                                                <input type="image" name="GotoPreviousId" id="GotoPreviousId" src="./ Pl.ÚS-st. 3:96_files/ico_back.gif" alt="Předcházející dokument" style="border-width:0px;"></td>
+                                                            <td>
+                                                                &nbsp;</td>
+                                                            <td>
+                                                                <input type="image" name="GotoNextId" id="GotoNextId" src="./ Pl.ÚS-st. 3:96_files/ico_next.gif" alt="Následující dokument" style="border-width:0px;"></td>
+                                                            <td>
+                                                                &nbsp;</td>
+                                                            <td>
+                                                                <input type="image" name="GotoList" id="GotoList" src="./ Pl.ÚS-st. 3:96_files/ico_back2list.gif" alt="Návrat na seznam" style="border-width:0px;"></td>
+                                                            <td>
+                                                                <input type="image" name="GotoHome" id="GotoHome" src="./ Pl.ÚS-st. 3:96_files/ico_back2home.gif" alt="Návrat na vyhledávání" style="border-width:0px;"></td>
+                                                            <td>
+                                                                &nbsp;</td>
+                                                            <td>
+                                                                <input type="image" name="DeleteDocumentFromList" id="DeleteDocumentFromList" src="./ Pl.ÚS-st. 3:96_files/ico_delete.gif" alt="Výmaz dokumentu ze seznamu" onclick="return true;" style="border-width:0px;"></td>
+                                                            <td>
+                                                                &nbsp;</td>
+                                                            <td>
+                                                                <input type="image" name="SaveDocument" id="SaveDocument" src="./ Pl.ÚS-st. 3:96_files/ico_save.gif" alt="Přidat do odložených" style="border-width:0px;"></td>
+                                                            <td>
+                                                                &nbsp;&nbsp;</td>
+                                                        </tr>
+                                                    </tbody></table>
+                                                </td>
+                                            </tr>
+                                            <tr><!-- litHeader -->
+                                              <td colspan="2" align="left">
+                                                
+                                                   <table width="98%" cellspacing="0" cellpadding="0" id="tableDocumentHeader"><tbody><tr class="resultDataHeader" id="headerRowFirst">
+<td class="resultCol0">
+<div class="resultCol0FF"></div>
+</td>
+<td class="resultDataHeader">Sp.zn.</td>
+<td class="resultDataHeader">Populární název</td>
+<td class="resultDataHeader">Soudce zpravodaj</td>
+<td class="resultDataHeader">Navrhovatel</td>
+<td class="resultDataHeader">Datum rozhodnutí</td>
+<td class="resultDataHeader">Forma rozhodnutí</td>
+<td class="resultColN">
+<div class="resultColNFF"></div>
+</td>
+
+  </tr>
+<tr class="resultData0">
+<td class="resultData0"></td>
+<td class="resultData0">Pl.ÚS-st. 3/96 #1, ST 3/7 SbNU 40</td>
+<td class="resultData0">Zásada materiálního nazírání na právo</td>
+<td class="resultData0">Brožová Iva</td>
+<td class="resultData0">SENÁT ÚS - II.</td>
+<td class="resultData0">3. 12. 1996</td>
+<td class="resultData0">Stanovisko pléna</td>
+<td class="resultData0"></td>
+
+  </tr>
+</tbody></table>
+                                                
+                                              </td>
+                                            </tr>
+                                                                                        
+                                        </tbody></table>
+                                    
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                       
+                       
+                            <table border="0" cellpadding="3" cellspacing="0" class="resultDetailIconPanel" width="100%">
+                                <tbody><tr>
+                                    <td align="left">
+                                        &nbsp;<span id="lblPanel1Header" class="resultDetailLabel">Karta záznamu</span>
+                                    </td>
+                                    <td align="right">
+                                        <table border="0" cellpadding="3" cellspacing="0">
+                                            <tbody><tr>
+                                                <td align="center">
+                                                    </td>
+                                                <td align="center">
+                                                    <input type="image" name="PrintRecordCard" id="PrintRecordCard" src="./ Pl.ÚS-st. 3:96_files/ico_print.gif" alt="Tisk karty" style="border-width:0px;"></td>
+                                                <td align="center">
+                                                    <input type="image" name="DownloadRecordCard" id="DownloadRecordCard" src="./ Pl.ÚS-st. 3:96_files/ico_word.png" alt="Stáhnout kartu ve formátu MS Word" style="border-width:0px;"></td>
+                                                <td align="center">
+                                                    <input type="image" name="ShowAbstrakt" id="ShowAbstrakt" src="./ Pl.ÚS-st. 3:96_files/ico_abstract.png" alt="Zobrazit abstrakt a právní věty" style="border-width:0px;"></td>
+                                                <td align="center">
+                                                    </td>
+                                                <td align="center">
+                                                    <input type="image" name="ChangePanel1" id="ChangePanel1" src="./ Pl.ÚS-st. 3:96_files/ico_prepinac.png" alt="Změnit zobrazení" style="border-width:0px;"></td>
+                                                <td align="center">
+                                                    <input type="image" name="ShowHidePanel1" id="ShowHidePanel1" src="./ Pl.ÚS-st. 3:96_files/ico_hide.gif" alt="Skrýt okno" style="border-width:0px;"></td>
+                                            </tr>
+                                        </tbody></table>
+                                    </td>
+                                </tr>
+                            </tbody></table>
+                        
+                        
+                    </td>
+                </tr>
+                <tr id="rowRecordCard">
+                    <td>
+                        <div id="recordCardPanel" class="formBg" style="height:200px;overflow-y:scroll;">
+	
+                             
+<table width="95%" border="1" cellpadding="3" cellspacing="0" class="recordCardTable">
+    <tbody><tr>
+<td style="font-size:10pt;">Identifikátor evropské judikatury</td>
+<td style="font-size:10pt;">ECLI:CZ:US:1996:Pl.US-st.3.96.1</td>
+</tr>
+<tr>
+<td style="font-size:10pt;">Název soudu</td>
+<td style="font-size:10pt;">Ústavní soud České republiky</td>
+</tr>
+<tr>
+<td style="font-size:10pt;">Spisová značka</td>
+<td style="font-size:10pt;">Pl.ÚS-st. 3/96</td>
+</tr>
+<tr>
+<td style="font-size:10pt;">Paralelní citace (Sbírka zákonů)</td>
+<td style="font-size:10pt;">&nbsp;</td>
+</tr>
+<tr>
+<td style="font-size:10pt;">Paralelní citace (Sbírka nálezů a usnesení)</td>
+<td style="font-size:10pt;">ST 3/7 SbNU 40</td>
+</tr>
+<tr>
+<td style="font-size:10pt;">Populární název</td>
+<td style="font-size:10pt;">Zásada materiálního nazírání na právo</td>
+</tr>
+<tr>
+<td style="font-size:10pt;">Datum rozhodnutí</td>
+<td style="font-size:10pt;">3. 12. 1996</td>
+</tr>
+<tr>
+<td style="font-size:10pt;">Datum vyhlášení</td>
+<td style="font-size:10pt;">&nbsp;</td>
+</tr>
+<tr>
+<td style="font-size:10pt;">Datum podání</td>
+<td style="font-size:10pt;">2. 11. 1996</td>
+</tr>
+<tr>
+<td style="font-size:10pt;">Datum zpřístupnění</td>
+<td style="font-size:10pt;">17. 10. 2007</td>
+</tr>
+<tr>
+<td style="font-size:10pt;">Forma rozhodnutí</td>
+<td style="font-size:10pt;">Stanovisko pléna</td>
+</tr>
+<tr>
+<td style="font-size:10pt;">Typ řízení</td>
+<td style="font-size:10pt;">O zaujetí stanoviska pléna - § 23</td>
+</tr>
+<tr>
+<td style="font-size:10pt;">Význam</td>
+<td style="font-size:10pt;">1</td>
+</tr>
+<tr>
+<td style="font-size:10pt;">Navrhovatel</td>
+<td style="font-size:10pt;">SENÁT ÚS - II.</td>
+</tr>
+<tr>
+<td style="font-size:10pt;">Dotčený orgán</td>
+<td style="font-size:10pt;">&nbsp;</td>
+</tr>
+<tr>
+<td style="font-size:10pt;">Soudce zpravodaj</td>
+<td style="font-size:10pt;">Brožová Iva</td>
+</tr>
+<tr>
+<td style="font-size:10pt;">Napadený akt</td>
+<td style="font-size:10pt;">rozhodnutí Ústavního soudu; III. ÚS 226/95</td>
+</tr>
+<tr>
+<td style="font-size:10pt;">Typ výroku</td>
+<td style="font-size:10pt;">výrok interpretativní<br>vyhověno</td>
+</tr>
+<tr>
+<td style="font-size:10pt;">Dotčené ústavní zákony a mezinárodní smlouvy</td>
+<td style="font-size:10pt;"><ul class="ulInTD"><li>1/1993 Sb., čl. 95 odst.2</li><li>2/1993 Sb., čl. 36 odst.1</li></ul></td>
+</tr>
+<tr>
+<td style="font-size:10pt;">Ostatní dotčené předpisy</td>
+<td style="font-size:10pt;"><ul class="ulInTD"><li>172/1990 Sb., § 18 odst.1, § 18 odst.2, § 1 odst.2</li><li>182/1993 Sb., § 23</li><li>71/1967 Sb., § 53</li></ul></td>
+</tr>
+<tr>
+<td style="font-size:10pt;">Odlišné stanovisko</td>
+<td style="font-size:10pt;">Holländer Pavel<br>Jurka Vladimír<br>Ševčík Vlastimil</td>
+</tr>
+<tr>
+<td style="font-size:10pt;">Předmět řízení</td>
+<td style="font-size:10pt;">právo na soudní a jinou právní ochranu <br>základní ústavní principy/demokratický právní stát/materiální pojetí právního státu</td>
+</tr>
+<tr>
+<td style="font-size:10pt;">Věcný rejstřík</td>
+<td style="font-size:10pt;">školy</td>
+</tr>
+<tr>
+<td style="font-size:10pt;">Jazyk rozhodnutí</td>
+<td style="font-size:10pt;">Čeština</td>
+</tr>
+<tr>
+<td style="font-size:10pt;">Poznámka</td>
+<td style="font-size:10pt;">Stanovisko Pl. ÚS-st 3/96 pro řízení sp. zn. II. ÚS 229/95.
+Překonává nález sp. zn. III. ÚS 226/95.</td>
+</tr>
+<tr>
+<td style="font-size:10pt;">URL adresa</td>
+<td style="font-size:10pt;">http://nalus.usoud.cz/Search/GetText.aspx?sz=St-3-96_1</td>
+</tr>
+
+</tbody></table>
+
+                        
+</div>
+                        
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <div id="icoContentPanel" class="resultDetailIconPanel">
+	
+                            <table border="0" cellpadding="3" cellspacing="0" style="margin-top: 5px" width="100%">
+                                <tbody><tr>
+                                    <td id="resizeTD" align="left" valign="middle" class="resultResizeTD" onmousedown="resizeMousedown();">
+                                        
+                                        &nbsp;<span id="lblPanel2Header" class="resultDetailLabel">Text dokumentu</span></td>
+                                    <td align="right">
+                                        <table border="0" cellpadding="3" cellspacing="0">
+                                            <tbody><tr>
+                                                <td align="center" valign="middle">
+                                                    
+                                                </td>
+                                                <td align="center" valign="middle">
+                                                    
+                                                </td>
+                                                <td align="center" valign="middle">
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;
+                                                </td>
+                                                <td align="center" valign="middle">
+                                                    <input type="image" name="PrintDocContent" id="PrintDocContent" src="./ Pl.ÚS-st. 3:96_files/ico_print.gif" alt="Tisk dokumentu" style="border-width:0px;"></td>
+                                                <td align="center" valign="middle">
+                                                    <input type="image" name="ShowWordDoc" id="ShowWordDoc" src="./ Pl.ÚS-st. 3:96_files/ico_word.png" alt="Zobrazit dokument ve formátu MS Word" style="border-width:0px;"></td>
+                                                <td align="center" valign="middle">
+                                                    <input type="image" name="ClipboardCitace" id="ClipboardCitace" src="./ Pl.ÚS-st. 3:96_files/ico_citace.png" alt="Kopie citace do schránky" style="border-width:0px;"></td>
+                                                <td align="center" valign="middle">
+                                                    <input type="image" name="ClipboardOdkaz" id="ClipboardOdkaz" src="./ Pl.ÚS-st. 3:96_files/ico_odkaz.png" alt="Kopie odkazu do schránky" style="border-width:0px;"></td>
+                                                <td align="center" valign="middle">
+                                                    <input type="image" name="ShowHidePanel2" id="ShowHidePanel2" src="./ Pl.ÚS-st. 3:96_files/ico_hide.gif" alt="Skrýt okno" style="border-width:0px;"></td>
+                                            </tr>
+                                        </tbody></table>
+                                    </td>
+                                </tr>
+                            </tbody></table>
+                        
+</div>
+                    </td>
+                </tr>
+                <tr id="rowContent">
+                    <td>
+                        <div id="docContentPanel" class="formBg" style="height: 251px; overflow-y: scroll;">
+	
+                            
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody><tr><td id="uc_vytah_cellContent" align="left">
+        <span style="font-size:10pt;">Plénum  Ústavního  soudu   České  republiky  při  neveřejném jednání dne  3. 12. 1996  se podle §  23 zák. č.  182/1993 Sb. ve věci předloženého  právního názoru II. senátu  Ústavního soudu ČR vysloveného v nálezu<a href="https://nalus.usoud.cz/Search/GetRegSignDecisions.aspx?sz=3-226-95" target="_blank"> III. ÚS 226/95</a> usneslo  takto:
+<br>
+<br>
+<b>
+Ústavní  soud  vychází  ze  zásady  materiálního nazírání na právo,  dle níž  nejde jen  o dodržování  práva bez  dalšího, ale o dodržování  takových  norem  chování,   které  jsou  v  souladu s obsahovými hodnotami.
+</b>
+<br>
+<br>
+Odůvodnění
+<br>
+<br>
+V  dané  věci  bylo  ústavní  stížností  napadeno rozhodnutí rektora ze dne 14. 8. 1995,  kterým vzhledem k formálním a věcným nejasnostem byla  zrušena přijímací zkouška  ze dne 10.  7. 1995, a tím i  rozhodnutí děkana o  nepřijetí ke studiu  ze dne 31.  7. 1995  a  současně  stanoven  nový  termín  přijímací zkoušky před komisí  jmenovanou  rektorem.  Při  dodržení  zásady materiálního nazírání na  právo a v návaznosti  na úpravu obsaženou v  zák. č. 172/1990 Sb., ve znění  pozdějších předpisů, Statutu VUT, Statutu Fakulty  podnikatelské  a  Pravidel  pro  přijímání  ke studiu na Fakultě  podnikatelské a  i s  přihlédnutím k  Pokynům děkana pro přijímací  řízení na  Fakultu podnikatelskou  VUT pro  školní rok 1995/1996,  má Ústavní  soud za   to, že  za situace,  kdy rektor ústavní  stížností  napadeným  rozhodnutím  na základě skutkových nejasností   založených  diametrální   odlišností  výsledků  mezi zkouškou jazykovou, kdy oba  uchazeči dosáhli v podstatě nejnižší počet bodů, a všeobecnou zkouškou, v níž se jako jediní dosažením maximálního  počtu  bodů  prezentovali  v  zásadě  jako geniální, přičemž  stěžovatelka  dosahovala   dosud  průměrných  studijních výsledků a stěžovatel dokonce podprůměrných, a dalších nejasností plynoucích  ze  skutečnosti,  že  oba  přijímací zkoušku skládali v náhradním termínu,  při níž seděli  vedle sebe a  kdy předsedou přijímací  komise  byl  zaměstnanec  soukromé  agentury,  kde oba stěžovatelé   studovali,   učinil   opatření,   kterým  měly  být odstraněny  tyto  nejasnosti  a  současně  tak  postavena najisto otázka zjištění předpokladů ke  studiu, resp. zákonem postulované způsobilosti ke studiu (srov. § 18 odst. 1 zák. č. 172/1990 Sb.), nelze napadenému rozhodnutí rektora nic vytknout, a to tím spíše, že se  pohyboval v mezích  vysokoškolského zákona, který  mu hned v preambuli  ukládá   dokonce  zvýšenou  odpovědnost   za  rozvoj vzdělanosti a  zvyšování vědecké úrovně  společnosti. Ze stejných důvodů   nelze  na   straně  rektora   konstatovat  ani  libovůli zakládající dokonce protiústavnost. Jak  z předeslaného plyne, na uvedeném nic nemůže změnit neexistence procesních pravidel, neboť takový přístup  by svědčil o  upřednostňování formálních přístupů před obsahovými, a  navíc si lze představit i  situaci, kdy právě procesní  pravidla vytvoří  prostor pro  libovůli a  přesto budou v konkrétním případě  interpretována s vyloučením  této libovůle. Jiná věc je, že stanovení postupu ve statutu ve smyslu rozhodnutí třetího  senátu  je  zajisté  významným  příspěvkem  k  vytvoření předpokladů pro kvalitu přijímacího  řízení právě z hlediska jeho obsahu, nelze  je však povyšovat  nad podstatu, kterou  zůstávají schopnosti a předpoklady ke studiu,  čemuž odpovídá i to, že tyto postupy nalézají prostor až v podzákonné právní sféře.<br><br>V Brně dne 3. 12. 1996
+<br>
+<br>
+<hr>
+<br>
+Odlišné stanovisko soudců JUDr. Pavla Holländera, JUDr. Vladimíra Jurky a JUDr.  Vlastimila Ševčíka ve věci Pl.  ÚS-st. 3/96<br><br>1. Při posuzování ústavnosti rozhodnutí rektora o přijetí, resp. nepřijetí ke studiu na vysoké škole nutno v první řadě zodpovědět otázku, zdali se jedná o rozhodování o právu fyzické osoby v oblasti veřejné správy. Pozitivní odpověď na tuto otázku vyplývá jednak z platné právní úpravy, jednak z judikatury a konečně i z teoretickoprávního rozboru.<br><br>Z hlediska platného práva je to zejména ustanovení přílohy A o. s. ř., které by nemělo rozumný smysl v případě závěru, podle něhož se v posuzovaném případě nejedná o rozhodování o právu fyzické osoby v oblasti veřejné správy. Dále § 18 odst. 2 zákona č. 172/1990 Sb., o vysokých školách, ve znění pozdějších předpisů, zakotvuje proces rozhodování o přijetí ke studiu na vysoké škole. V souvislosti s rozhodnutím o přijetí ke studiu obsahuje citované ustanovení i výčet náležitostí, pojmově charakterizujících rozhodnutí v oblasti veřejné správy (vyžaduje se jeho odůvodnění, je zakotven přezkumný mechanizmus).<br><br>Z hlediska judikatury lze zmínit usnesení Ústavního soudu České a Slovenské Federativní Republiky ze dne 19. března 1992 <a href="https://nalus.usoud.cz/Search/GetRegSignDecisions.aspx?sz=2-18-92" target="_blank">sp. zn. II. ÚS 18/92</a>, v němž byla řešena otázka, jestli Právnická fakulta Univerzity Karlovy v oblasti rozhodování o rigorózním řízení vystupovala jako orgán veřejné moci. K pozitivní odpovědi na tuto otázku Ústavní soud ČSFR dospěl přijetím východiska, podle něhož jiný právní subjekt než státní orgán rozhoduje jako orgán veřejné moci o základních právech a svobodách tehdy, je-li toto rozhodování součástí pravomoci zakotvené zákonem a účastenství v něm nutnou podmínkou pro realizaci takového práva nebo svobody a nelze-li právo nebo svobodu uplatnit jinak.<br><br>Zákon o vysokých školách předpokládá výlučně existenci státních vysokých škol, na část jimi uskutečňovaných rozhodnutí přímo vztahuje správní řád (§ 34), pro další část upravuje speciální postup (např. § 18 odst. 2). Právu studovat na vysoké škole zákon přisuzuje veřejnoprávní povahu. Toto konstatování plyne z ustanovení § 34, podle něhož se na rozhodování o vyloučení ze studia vztahuje správní řád, a tudíž následně i možnost soudního přezkoumání.<br><br>Podle čl. 36 odst. 1 Listiny základních práv a svobod se každý může domáhat stanoveným postupem svého práva u nezávislého a  nestranného soudu  a  ve  stanovených  případech  u jiného orgánu. Uvedené ustanovení Listiny vyžaduje tudíž pro všechny případy rozhodování o právech stanovený postup, čili obecnou procesní úpravu, garantující rovnost a vyloučení libovůle.<br><br>Na rozhodování o přijetí ke studiu na vysoké škole se podle § 34 zákona o vysokých školách nevztahují obecné předpisy o správním řízení. tj. § 53 až 6l zákona č. 71/1967 Sb., o správním řízení. Uvedenou problematiku neupravuje přitom ani zákon o vysokých školách. Podle § 1 odst. 2 zákona č. 172/1990 Sb., ve znění pozdějších předpisů, jsou vysoké školy samosprávné, v důsledku čehož o organizaci a činnosti vysoké školy rozhodují v souladu se zákonem a v jeho mezích orgány akademické samosprávy. Je tedy jejich úkolem ve statutu vysoké školy (fakulty) stanovit postup rozhodování o právech, jestliže tento není stanoven právními předpisy.<br><br>V souvislosti s rozhodováním rektora o odvolání do rozhodnutí děkana o nepřijetí ke studiu na vysoké škole to znamená nezbytnost stanovit rozsah aplikace revizního principu, resp. jeho omezení na důvody odvolání, jakož i míru aplikace kasačního a apelačního principu. V opačném případě dochází k rozhodování rektora o odvolání proti rozhodnutí děkana ve věci přijímání ke studiu na vysoké škole bez předem "stanoveného postupu" a tím k dotčení na základních právech, plynoucích z či. 36 odst. 1 Listiny základních práv a svobod.<br>2. Většinové votum vychází „ze zásady materiálního nazírání na právo" a při přezkoumání posuzovaného případu neshledává libovůli při rozhodování rektora, protože tento „učinil opatření, kterým měly být odstraněny nejasnosti" přijímacího řízení ,a současně tak postavena najisto otázka zjištění předpokladů ke studiu“. Z toho se dovozuje závěr, že na konstatování absence libovůle při rozhodování rektora „.nic nemůže změnit neexistence procesních pravidel, neboť takový přístup by svědčil o upřednostňování formálních přístupů před obsahovými, a navíc si lze představit i situaci, kdy právě procesní pravidla vytvoří prostor pro libovůli a přesto budou v konkrétním případě interpretována s vyloučením této libovůle". Pravidla rozhodování rektora v odvolacích řízeních pak „nelze povyšovat nad podstatu, kterou zůstávají schopnosti a předpoklady ke studiu".<br><br>Tato úvaha a toto stanovisko otevírá prostor k tomu, aby rektor při rozhodování o odvolání proti rozhodnutí děkana o nepřijetí ke studiu na vysokou školu prověřoval “schopnosti a předpoklady uchazeče ke studiu", pakliže má pochybnosti o obsahu přijímací zkoušky, dále k tomu, aby z takového zjištění vyvodil závěry bez jakékoli předem dané úpravy, tudíž i rozhodl o přijetí ke studiu. Po přijetí uvedeného stanoviska dnes nebrání rektorovi nic v tom, aby interpretoval zákon o vysokých školách tím způsobem, že nebude respektovat rozhodnutí akademického senátu fakulty o kritériích posuzování předpokladů ke studiu a o počtu přijímaných studentů a po posouzení vlastním rozhodne o přijetí neomezeného počtu uchazečů.<br><br>Zákon o vysokých školách, jenž patřil v pravém slova smyslu k zákonům spjatým s listopadem 1989, odstranil nedemokratické centralistické řízení vysokých škol státem, zavedl jejich rozsáhlou autonomii a zakotvil akademická práva a svobody. K účelům zákona patřila i snaha zabránit zneužívání přijímacího řízení, jak k tomu docházelo před listopadem, kdy, kromě jiného, na úrovni rektora a ministerstva byli přijímáni uchazeči bez splnění jakýchkoli podmínek a bez jakékoli vázanosti pravidly a předem stanovenými počty. Zákon, a to bez dotčení autonomie vysokých škol, v této souvislosti neřekl nic víc a nic míň než to, že přijímání ke studiu je vnitřní věcí vysoké Školy, že v něm hraje významnou roli obsahový kontext, pročež pro něj vyloučil v § 34 použití správního řádu, a tím svěřil jeho úpravu kompetenci samosprávné. Cílem bylo tedy na straně jedné nenarušit samosprávnou povahu vysokých škol, na straně druhé vyloučit libovůli v rozhodování.<br><br>Pojem libovůle může mít dvojí význam: může jít o libovůli ve smyslu materiálním, tj. z hlediska spravedlnosti a racionality (účelu) rozhodnutí ve věci (ke které může dojít i zneužitím existujících procesních pravidel) a dále o libovůli v postupu a obsahu rozhodnutí ve smyslu nerespektování nebo absence předem daných pravidel a alternativ rozhodování.<br><br>V demokratickém právním státě se spravedlností a teleologické posuzování věcí „.pohybuje" v rámci předem stanovených procesních pravidel (jejichž účelem je právě takovéto posouzení umožnit). V případě, kdy akceptace procesních pravidel vede ke zjevné nespravedlnosti, právní řád umožňuje buď speciální postup vedoucí ke změně procesní normy (kupř. podle či. 95 odst. 2 Ústavy), nebo za omezujících podmínek extrémního ohrožení (resp. dotčení) základních ústavních principů umožňuje i rozhodnoutí praeter nebo contra legem. V posuzované věci však chybí základ takovéto úvahy, chybí jakákoli ústavní úpravou vyžadovaná procesní pravidla. Konečně argument možného zneužití procesních pravidel, odůvodňující odmítnutí obecného požadavku jejich existence, ve svém důsledku znamená zpochybnění jednoho ze základních axiomů demokratické anglosaské i evropsko-kontinentální právní kultury, podle něhož priorita procesních garancí představuje následně i garanci hmotných práv.
+<br>
+<br>
+</span>
+    </td>
+	</tr>
+</tbody></table>
+                        
+</div>
+                    </td>
+                </tr>
+                <tr><td class="masterFooterLine"></td></tr>
+                <tr>
+                  <td class="masterFooter">
+                  Ústavní soud, Joštova 8, Brno, Česká republika
+                  </td>
+                </tr>
+                <tr>
+                  <td class="masterFooter">
+                  © 2006 AutoCont CZ, a.s.
+                  </td>
+                </tr>
+                <tr><td class="masterFooterLine"></td></tr>
+            </tbody></table>
+        </div>
+        <input name="docIdHidden" type="hidden" id="docIdHidden" value="52541">
+        <input name="sourceLinkTypeHidden" type="hidden" id="sourceLinkTypeHidden" value="result">    
+        <input name="rcHeightHidden" type="hidden" id="rcHeightHidden">
+        <input name="contentHeightHidden" type="hidden" id="contentHeightHidden" value="251">
+    </form>
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
